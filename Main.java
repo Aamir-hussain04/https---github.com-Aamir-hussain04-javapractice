@@ -63,41 +63,45 @@ import java.util.Scanner;
         //}
 //do while loop
 // import java.util.Scanner;
-public class Main{
-    public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
-        int number=0;  
-        do{     
-            System.out.print("enter a number:");
-            number = sc.nextInt();
-            System.out.println("your number is: " + number);
-        }while(number>0);
-        System.out.println("THE END");
-    }  
-
-}
+//public class Main{
+//    public static void main(String[] args) {
+//        Scanner sc= new Scanner(System.in);
+//        int number=0;  
+//        do{     
+//            System.out.print("enter a number:");
+//            number = sc.nextInt();
+//            System.out.println("your number is: " + number);
+//        }while(number>0);
+//        System.out.println("THE END");
+//    }  
+//
+//}
 
 
 //ask user+ to guess a random number between 0 to 100
-        //int number= (int)(Math.random()*100);
-        //System.out.print("Guess the number :");
-        //Scanner sc=new Scanner(System.in);
-        //int mynumber=0;
-        //do{
-        //     mynumber=sc.nextInt();
-        //    if (mynumber==number){
-        //        System.out.println("you guessed correct number !!");
-        //        break;
-        //    }
-        //    else if(mynumber<number){
-        //        System.out.println("guessed number is too small");
-        //    }
-        //    else {
-        //        System.out.println("guessed number is too large");
-        //    }
-        //}while(mynumber>=0);
- //System.out.println("the correct number is "+ number);
-
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[] args) { 
+//        int number= (int)(Math.random()*100);
+//        System.out.print("Guess the number :");
+//        Scanner sc=new Scanner(System.in);
+//        int mynumber=0;
+//        do{
+//            mynumber=sc.nextInt();
+//            if (mynumber==number){
+//            System.out.println("you guessed correct number !!");
+//            break;
+//            }
+//            else if(mynumber<number){
+//                System.out.println("guessed number is too small");
+//            }
+//            else {
+//                System.out.println("guessed number is too large");
+//            }
+//            }while(mynumber>=0);
+//            System.out.println("the correct number is "+ number);
+//    }
+//}
 
 //creating class and object
 //public class Main{
@@ -130,18 +134,23 @@ public class Main{
 //}
 
 
-//KM intometers
-// import java.util.Scanner;
-// public class Main{
+//KM into meters
+//import java.util.Scanner;
+//public class Main{
 //    public static void main(String[] args){
-//         Scanner sc=new Scanner(System.in);
-//         double km=0;
-//        do{  
+//        Scanner sc=new Scanner(System.in);
+//        double km=0;
+//        while(true){ 
 //            System.out.println("enter the distance in km: ");
 //            km=sc.nextDouble();
 //            double meter = 1000*km;
 //            System.out.println("the distance in meter is: "+ meter );
-//        }while(true);
+//
+//            if(km<0){
+//                System.out.println("invalid distance!!");
+//                break;
+//            }
+//        }
 //    }
-// }
+//}
     
